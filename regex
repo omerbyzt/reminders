@@ -1,0 +1,19 @@
+## Basic Regex Commands
+
+. -> hepsini seçer
+^<str> -> stringin başını kotrol eder
+<str>$ -> stringin sonunu kontrol eder
+[str] -> içindekileri string içinde arar. Sıralı olması gerekmez
+[str1][str2] -> 2 stringin birleştiği elemanları seçer [cab][312] => ab(c1)23
+[^str] -> str nin en öndeki elemanından öncekileri seçer
+[a-c1-5] -> a'dan c'ye kadar olan tüm karakterler ve 1'den 5'e tüm sayılar
+a|d -> a veya d yi arar
+ad -> direk bu parçayı bütün olarak arar
+$ -> satır sonunun gelip gelmediğini kontrol eder
+
+\d -> [0-9] arasındaki sayıları bulur
+\D -> [^0-9] sayı olmayanları bulur
+\s -> boşluğu bulur
+\S -> boşluk olmayanları bulur
+\w -> [a-zA-Z_0-9] büyük küçük harf ve rakamları bulur
+\W -> \w'nun not işlemidir
